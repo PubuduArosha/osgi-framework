@@ -17,12 +17,12 @@ public class Activator implements BundleActivator, ServiceListener {
 
 	@Override
 	public void start(BundleContext context) throws Exception {
-
+		System.out.println("Start MTIT Osgi service");
 	}
 
 	@Override
 	public void stop(BundleContext context) throws Exception {
-
+		System.out.println("Stop MTIT osgi service");
 	}
 
 	public void serviceChanged(ServiceEvent ev) {
